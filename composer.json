@@ -1,0 +1,20 @@
+{
+    "name": "cyber-root0/abstractmodel",
+    "description": "How to create a dynamic model, using OOP abstraction to your advantage.",
+    "type": "package",
+    "require": {
+      "php": ">=8.1"
+    },
+    "license": "proprietary",
+    "authors": [
+      {
+        "name": "Bruno Alves",
+        "email": "boteistem@gmail.com"
+      }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BrunoAlves\\abstractmodel\\": "app/"        
+        }
+    }
+  }
